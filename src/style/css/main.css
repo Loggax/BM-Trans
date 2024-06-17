@@ -173,7 +173,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.about-us-holder .desc p:nth-child(1), .about-us-holder .desc p:nth-child(2), .about-us-holder .desc p:nth-child(6) {
+.about-us-holder .desc p:nth-child(1), .about-us-holder .desc p:nth-child(2), .about-us-holder .desc p:nth-child(8) {
   margin-bottom: 46px;
 }
 .about-us-holder .card-holder {
@@ -218,6 +218,8 @@
 @media (max-width: 500px) {
   .about-us-holder .card-holder .card p:nth-child(1) {
     margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 33px;
   }
 }
 .about-us-holder .card-holder .card p:nth-child(2) {
@@ -360,6 +362,13 @@
   flex-wrap: wrap;
   justify-content: center;
   scale: 2;
+}
+.contact-holder .social img {
+  width: 23px;
+  border-radius: 5px;
+}
+.contact-holder .social a:last-child {
+  margin-left: 5px;
 }
 
 .order-holder {
